@@ -1,0 +1,2 @@
+var txt = "ADIOFBNOGIBDILGBILASDBGLIUABSDGILUBADSLIUGBVIUIAU";
+document.write(txt.length);

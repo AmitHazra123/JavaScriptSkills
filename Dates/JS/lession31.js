@@ -1,0 +1,15 @@
+ d = new Date();
+document.write(d.getFullYear());
+var month = d.getMonth();
+month ++;
+document.write("<br/>" + month);
+document.write("<br/>" + d.getDate());
+document.write("<br/>" + d.getHours());
+document.write("<br/>" + d.getMinutes());
+document.write("<br/>" + d.getSeconds());
+document.write("<br/>" + d.getMilliseconds());
+var day = d.getDay();
+var days = ["Sunday", "Monday", "Tuesday", "Wednessday", "Thursday", "Friday", "Saturday"];
+document.write("<br/>" + days[day]);
+d.setFullYear("2018", "11", "23");
+document.write("<br/>" + d);
